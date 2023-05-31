@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aathi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev electron concurrently wait-on
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\java\jdk1.8.0_261\bin;C:\hadoop-3.3.0\bin;C:\hadoop-3.3.0\sbin;C:\Program Files\dotnet\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\aathi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\aathi\AppData\Local\Programs\Python\Python39\;C:\Users\aathi\AppData\Local\Microsoft\WindowsApps;C:\Users\aathi\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\hadoop-3.3.0\bin;C:\hadoop-3.3.0\sbin;C:\java\jdk1.8.0_261\bin;C:\Users\aathi\.dotnet\tools;C:\Users\aathi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aathi\AppData\Local\JetBrains\PhpStorm 2022.1.2\bin;;C:\Users\aathi\AppData\Roaming\npm;C:\Users\aathi\AppData\Local\GitHubDesktop\bin;C:\Program Files\mongosh\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/core/-/core-4.12.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\aathi\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:814:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:526:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@material-ui/core": "^4.11.3",
+      "@material-ui/icons": "^4.11.2",
+      "axios": "^0.21.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-file-base64": "^1.0.3",
+      "react-hook-form": "^6.15.1",
+      "react-redux": "^7.2.2",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "^4.0.2",
+      "redux": "^4.0.5",
+      "redux-devtools-extension": "^2.13.8",
+      "redux-logger": "^3.0.6",
+      "redux-thunk": "^2.3.0"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
